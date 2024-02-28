@@ -26,7 +26,7 @@ web:
     name: crapi-web
     labels:
       app: crapi-web
-    nodePort: 30080
+    nodePort: 30001
     sslNodePort: 30443
   config:
     name: crapi-web-configmap
