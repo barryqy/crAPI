@@ -149,7 +149,7 @@ mailhog:
     name: mailhog-web
     labels:
       app: mailhog
-    nodePort: 30025
+    nodePort: 30201
   config:
     name: mailhog-configmap
     labels:
